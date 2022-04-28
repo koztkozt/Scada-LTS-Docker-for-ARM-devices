@@ -7,7 +7,7 @@ ADD https://github.com/SCADA-LTS/Scada-LTS/raw/develop/tomcat/lib/jaxb-api-2.4.0
 ADD https://github.com/SCADA-LTS/Scada-LTS/raw/develop/tomcat/lib/jaxb-core-3.0.2.jar /usr/local/tomcat/lib/jaxb-core-3.0.2.jar
 ADD https://github.com/SCADA-LTS/Scada-LTS/raw/develop/tomcat/lib/jaxb-runtime-2.4.0-b180830.0438.jar /usr/local/tomcat/lib/jaxb-runtime-2.4.0-b180830.0438.jar
 ADD https://raw.githubusercontent.com/SCADA-LTS/Scada-LTS/develop/docker/config/context.xml /usr/local/tomcat/conf/context.xml
-ADD https://github.com/SCADA-LTS/Scada-LTS/releases/download/v2.6.10-rc1/Scada-LTS.war /usr/local/tomcat/webapps/
+ADD https://github.com/SCADA-LTS/Scada-LTS/releases/download/v2.6.15/ScadaBR.war /usr/local/tomcat/webapps/
 
 # Add the wait script to the image
 ADD https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh /wait/
